@@ -1,4 +1,5 @@
 About the Project
+
 This project is a front-end clone of the Amazon website, developed as part of my Industrial Training (IT) project. It was created to practise and improve my web development skills by recreating the layout and design of a popular e-commerce platform.
 
 The project replicates selected elements of Amazon's user interface, providing an opportunity to explore how e-commerce websites organise and display their content.
