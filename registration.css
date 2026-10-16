@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: px;
+}
+
+/* Logo */
+.logo img{
+    margin: auto ;
+    width: 100px;
+    height: 100px;
+}
+
+/* Create Account Box */
+.create-account-box{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.create-account-box h1{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.password-hint{
+    font-size: 12px;
+    color: #555;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: rgb(255, 200, 0);
+    border: 1px solid #a88734;
+    color: #111;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: rgb(255, 180, 0);
+}
+
+/* Terms */
+.terms{
+    font-size: 12px;
+    color: #555;
+    margin-top: 15px;
+}
+
+.terms a{
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.terms a:hover{
+    text-decoration: underline;
+    color: #e2b33c;
+}
+
+/* Divider */
+.divider{
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+/* Sign-in Link */
+.signin-link{
+    font-size: 12px;
+    text-align: center;
+}
+
+.signin-link a{
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.signin-link a:hover{
+    text-decoration: underline;
+    color: #e2b33c;
+}
+
+.business p{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.business a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #0066c0 ;
+}
+
+.business a:hover{
+    text-decoration: underline;
+    color: #e2b33c;
+}
